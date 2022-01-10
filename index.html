@@ -8,6 +8,34 @@
 </head>
 
 <body>
-    
+    <nav>
+        <div class="reset-container">
+            <p>Already have an Intuit account?</p>
+            <p class="reset-password">I forgot my User ID or Password</p>
+        </div>
+        <button class="signin">Sign In</button>
+    </nav>
+    <header>
+        <h1 class="logo">
+            Intuit
+        </h1>
+
+    </header>
+    <main>
+        <form class="signup" action="/login" method="post">
+            <div class="signup-head">
+                <h1>Create an Intuit account</h1>
+                <p>One account for everything Intuit, including Mint. <a>Learn more</a></p>
+            </div>
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+                <label for="phone">Phone<span>(reccomended)</span></label>
+                <input id="phone" type="tel" name="phone">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" required>
+                <input type="submit" name="submit" value="Submit">
+        </form>
+    </main>
 </body>
 </html>
